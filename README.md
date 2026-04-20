@@ -1,16 +1,16 @@
-# Cook County Assessor’s Office (CCAO) Housing Analysis
+# Cook County Property Assessment: Data Systems & Predictive Modeling
 
-### Project Objective
-Developed a high-performance predictive valuation model to analyze property assessments across 500,000+ records. 
-The project focused on optimizing model accuracy and ensuring fair valuation through advanced feature engineering 
-and statistical validation.
+### Project Overview
+A comprehensive two-part analysis of property valuation data for the Cook County Assessor’s Office (CCAO). This project spans the full data science lifecycle, from large-scale data ingestion and cleaning to advanced predictive modeling and model auditing.
 
-### Technical Implementation
-* **Modeling:** Utilized **Scikit-Learn** to build and tune linear regression models.
-* **Data Engineering:** Managed and cleaned a large-scale dataset using **Pandas**, implementing robust feature selection to improve predictive power.
-* **Validation:** Applied **Cross-Validation** and residual analysis to verify model stability and performance across different geographic subsets.
-* **Visualization:** Used **Matplotlib** and **Seaborn** to generate heatmaps and spatial distribution plots for assessment auditing.
+### Technical Skills Demonstrated
+* **Modeling:** Scikit-Learn (Linear Regression), Cross-Validation, Residual Analysis.
+* **Data Engineering:** Pandas (500k+ records), Feature Engineering (Log-scaling, Categorical Encoding).
+* **Visualization:** Matplotlib/Seaborn (Spatial Disparity Mapping).
 
 ### Key Results
-* Successfully identified specific feature sets that drove valuation variances.
-* Documented technical workflows for increasing model transparency and interpretability in automated systems.
+* **Project A1:** Conducted exploratory data analysis on a 500k+ record dataset, identifying key drivers of valuation variance.
+* **Project A2:** Developed an optimized regression model achieving a **Training RMSE of 0.465**. Implemented feature importance analysis to ensure model transparency and interpretability.
+
+---
+*Developed at UC Berkeley.*
